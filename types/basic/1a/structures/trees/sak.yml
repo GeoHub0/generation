@@ -1,0 +1,8 @@
+id: "SAK"
+scripts:
+  - "sakura_thick": 1
+spawnable:
+  - "minecraft:note_block"
+  - "minecraft:podzol"
+replaceable:
+  - "minecraft:air"

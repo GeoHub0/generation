@@ -1,0 +1,8 @@
+layers:
+  - materials: "minecraft:note_block[instrument=basedrum,note=14,powered=false]"
+    layers: 1
+  - materials: "minecraft:note_block[instrument=snare,note=0,powered=false]"
+    layers: 2
+  - materials: "minecraft:note_block[instrument=basedrum,note=18,powered=false]"
+    layers: 1
+id: "AETHER_GRASSY"

@@ -1,0 +1,6 @@
+layers:
+  - materials:
+      - "minecraft:bedrock": 1
+      - "minecraft:note_block[instrument=basedrum,note=18,powered=false]": 1
+    layers: 1
+id: AETHER_BEDROCK_HALF

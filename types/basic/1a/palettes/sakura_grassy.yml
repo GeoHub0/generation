@@ -1,0 +1,8 @@
+layers:
+  - materials: "minecraft:note_block[instrument=guitar,note=10,powered=false]"
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 2
+  - materials: "minecraft:note_block[instrument=guitar,note=9,powered=false]"
+    layers: 1
+id: "SAKURA_GRASSY"

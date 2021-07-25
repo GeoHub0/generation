@@ -1,0 +1,6 @@
+id "gsed";
+
+if(getBlock(0,0,0) != "minecraft:water") fail;
+
+
+mythicMob(0,0,0,"glowsquid");

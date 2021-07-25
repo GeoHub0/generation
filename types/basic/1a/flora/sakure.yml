@@ -1,0 +1,10 @@
+layers:
+  - materials:
+      - "minecraft:tripwire[attached=true,disarmed=false,east=true,north=true,powered=true,south=false,west=true]": 5
+      - "minecraft:air": 1
+    layers: 1
+id: "SAKURE"
+spawnable:
+  - "minecraft:note_block"
+replaceable:
+  - "minecraft:air"

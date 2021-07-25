@@ -1,0 +1,12 @@
+layers:
+  - materials:
+      - "minecraft:tripwire[attached=true,disarmed=false,east=false,north=true,powered=false,south=true,west=false]": 5
+      - "minecraft:tripwire[attached=true,disarmed=false,east=false,north=true,powered=false,south=true,west=false]": 5
+      - "minecraft:tripwire[attached=true,disarmed=false,east=false,north=true,powered=false,south=false,west=false]": 1
+    layers: 1
+id: "DESOLATE"
+spawnable:
+  - "minecraft:note_block"
+replaceable:
+  - "minecraft:air"
+

@@ -1,0 +1,6 @@
+material: "minecraft:note_block[instrument=harp,note=22]"
+size:
+  min: 15
+  max: 15
+extends: DEEPMINERAL
+id: "DEEP_IRON_ORE"

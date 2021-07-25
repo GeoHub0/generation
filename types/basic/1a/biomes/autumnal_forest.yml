@@ -1,0 +1,32 @@
+extends: "FOREST_ABSTRACT"
+id: "AUTUMNAL_DARK_FOREST"
+color: 0x40511a
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 40
+  - DEEPSLATE_LITTLE: 42
+  - SANDY: 62
+  - AUTGRASSY: 255
+vanilla: TAIGA
+
+trees:
+  - density: 5
+    items:
+      - ADARK_OAK: 1
+    y:
+      min: 58
+      max: 84
+flora:
+  - density: 50
+    y:
+      min: 0
+      max: 255
+    items:
+      - AUTUMNAL: 150
+
+tags:
+  - "LAND"
+  - "RIVER_ERODE"

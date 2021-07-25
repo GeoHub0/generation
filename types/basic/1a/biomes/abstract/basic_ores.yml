@@ -1,0 +1,138 @@
+# This biome is the parent of ALL biomes in the default config.
+
+id: "BASIC_ORES"
+abstract: true
+
+
+carving:
+  CAVE: 50
+  RAVINE: 2
+
+structures:
+  - STRONGHOLD
+  - DUNGEON
+  - MINESHAFT
+
+flora:
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 15
+      - GRASS: 70
+      - POPPY: 5
+slabs:
+  enable: true
+  threshold: 0.0075
+  palettes:
+    "minecraft:stone": "BLOCK:minecraft:stone_slab"
+    "minecraft:cobblestone": "BLOCK:minecraft:cobblestone_slab"
+    "minecraft:mossy_cobblestone": "BLOCK:minecraft:mossy_cobblestone_slab"
+    "minecraft:snow_block": "SNOW_LAYERS"
+  use-stairs-if-available: true
+  stair-palettes:
+    "minecraft:stone": "BLOCK:minecraft:stone_stairs"
+    "minecraft:cobblestone": "BLOCK:minecraft:cobblestone_stairs"
+    "minecraft:mossy_cobblestone": "BLOCK:minecraft:mossy_cobblestone_stairs"
+ores:
+  DIRT:
+    min: 0
+    max: 2
+    min-height: 0
+    max-height: 84
+  GRAVEL:
+    min: 0
+    max: 2
+    min-height: 0
+    max-height: 84
+  TUFFD:
+    min: 0
+    max: 40
+    min-height: 0
+    max-height: 60
+  DIORITE:
+    min: 0
+    max: 2
+    min-height: 0
+    max-height: 84
+  ANDESITE:
+    min: 0
+    max: 2
+    min-height: 0
+    max-height: 84
+  GRANITE:
+    min: 0
+    max: 2
+    min-height: 0
+    max-height: 84
+  COAL_ORE:
+    min: 18
+    max: 20
+    min-height: 0
+    max-height: 128
+  IRON_ORE:
+    min: 15
+    max: 20
+    min-height: 0
+    max-height: 64
+  GOLD_ORE:
+    min: 1
+    max: 3
+    min-height: 1
+    max-height: 32
+  LAPIS_ORE:
+    min: 1
+    max: 2
+    min-height: 1
+    max-height: 30
+  REDSTONE_ORE:
+    min: 6
+    max: 8
+    min-height: 0
+    max-height: 16
+  DIAMOND_ORE:
+    min: 1
+    max: 1
+    min-height: 1
+    max-height: 15
+  SAPPHIRE_ORE:
+    min: 3
+    max: 8
+    min-height: 1
+    max-height: 128
+  COPPER_ORE:
+    min: 3
+    max: 8
+    min-height: 1
+    max-height: 128
+  DEEP_IRON_ORE:
+    min: 3
+    max: 8
+    min-height: 1
+    max-height: 60
+  DEEP_LAPIS_ORE:
+    min: 3
+    max: 8
+    min-height: 1
+    max-height: 60
+  DEEP_GOLD_ORE:
+    min: 3
+    max: 8
+    min-height: 1
+    max-height: 60
+  DEEP_DIAMOND_ORE:
+    min: 3
+    max: 8
+    min-height: 1
+    max-height: 60
+  DEEP_RUBY_ORE:
+    min: 3
+    max: 10
+    min-height: 1
+    max-height: 60
+  LUMIJADE_ORE:
+    min: 3
+    max: 10
+    min-height: 1
+    max-height: 120

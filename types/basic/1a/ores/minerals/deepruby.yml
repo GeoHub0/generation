@@ -1,0 +1,6 @@
+material: "minecraft:note_block[instrument=basedrum,note=0]"
+size:
+  min: 15
+  max: 15
+extends: DEEPMINERAL
+id: "DEEP_RUBY_ORE"

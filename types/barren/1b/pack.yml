@@ -1,0 +1,116 @@
+id: 1b
+author: Trident
+version: 0.0.1
+
+structures:
+  locatable:
+    minecraft:desert_pyramid: DESERT
+    minecraft:stronghold: STRONGHOLD
+    minecraft:pillager_outpost: OUTPOST
+    minecraft:swamp_hut: SWAMP
+    minecraft:monument: MONUMENT
+    minecraft:igloo: IGLOO
+    minecraft:jungle_pyramid: JUNGLE
+    minecraft:ruined_portal: RUINED_PORTAL
+    minecraft:village: VILLAGE
+    minecraft:mineshaft: MINESHAFT
+
+blend:
+  terrain:
+    step: 3
+    elevation: 4
+
+beta:
+  carving: true
+
+vanilla:
+  mobs: true
+
+noise:
+  bare:
+    type: DomainWarp
+    function:
+      type: OpenSimplex2
+      frequency: 0.005
+    warp:
+      type: WHITENOISE
+      amplitude: 20
+  bubble: # Bubbly noise
+    dimensions: 2
+    type: LINEAR
+    min: 0.75
+    max: 1
+    function:
+      type: CLAMP
+      min: -1
+      max: -0.6
+      function:
+        type: Cellular
+        frequency: 0.075
+        return: Distance2Add
+  noise2: # Bubbly noise
+    dimensions: 2
+    type: LINEAR
+    min: 0.75
+    max: 1
+    function:
+      type: CLAMP
+      min: -1
+      max: -0.6
+      function:
+        type: Cellular
+        frequency: 0.075
+        return: Distance2Add
+  rand:
+    dimensions: 3
+    type: WhiteNoise
+
+variables:
+  base: 63
+biomes:
+  type: PIPELINE
+  biome: YELLOWSTONE
+  resolution: 4
+  blend:
+    amplitude: 1.75
+    noise:
+      type: OpenSimplex2
+      frequency: 0.12
+  image:
+    name: map.jpg
+    align: NONE
+  pipeline:
+    initial-size: 4
+    source:
+      type: NOISE
+      biomes:
+        NEUTRAL: 2
+      noise:
+        type: FBm
+        function:
+          type: OpenSimplex2
+          frequency: 0.04
+    stages:
+      - mutate: # Land climate distribution
+          type: REPLACE
+          from: "BIOME:PLAINS"
+          to:
+            - NEUTRAL: 4 # Super cold biomes
+            - NEUTRAL: 8 # Temperate biomes
+          noise:
+            type: FBm
+            function:
+              type: OpenSimplex2
+              frequency: 0.04
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 18
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 19
+addons:
+ - MythicMobs

@@ -1,0 +1,39 @@
+extends: "PLAINS_ABSTRACT"
+id: "NEUTRAL"
+color: 0x8db360
+palette:
+  - BARE: 255
+biome-noise:
+    dimensions: 2
+    type: LINEAR
+    min: 0.75
+    max: 1
+    function:
+      type: CLAMP
+      min: -1
+      max: -0.6
+      function:
+        type: Cellular
+        frequency: 0.075
+        return: Distance2Add
+vanilla: PLAINS
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+structures:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+
+
+
+
+colors:
+  water: 0xff0000
+  water-fog: 0x00ff00
+  fog: 0x0000ff
+  sky: 00FFB1
+  grass: 0x00ffff
+  foliage: 0xffffff

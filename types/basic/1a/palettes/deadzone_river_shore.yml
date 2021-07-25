@@ -1,0 +1,15 @@
+layers:
+  - materials:
+      - "minecraft:note_block[instrument=harp,note=13,powered=false]": 1
+      - "minecraft:note_block[instrument=snare,note=16,powered=false]": 4
+      - "minecraft:note_block[instrument=harp,note=13,powered=false]": 2
+    layers: 1
+  - materials: "minecraft:note_block[instrument=snare,note=15,powered=false]"
+    layers: 2
+  - materials: "minecraft:blackstone"
+    layers: 1
+id: "DEADZONE_RIVER_SHORE"
+noise:
+  type: OpenSimplex2
+  frequency: 0.05
+  salt: 3

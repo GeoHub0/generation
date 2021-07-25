@@ -1,0 +1,6 @@
+material: "minecraft:note_block[instrument=snare,note=3,powered=false]"
+size:
+  min: 1
+  max: 10
+extends: DEEPMINERAL
+id: "GRAVITITE_ORE"

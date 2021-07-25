@@ -1,0 +1,14 @@
+layers:
+  - materials:
+      - "minecraft:azure_bluet": 1
+      - "minecraft:blue_orchid": 2
+      - "minecraft:orange_tulip": 3
+      - "minecraft:crimson_roots": 2
+      - "minecraft:campfire": 1
+      - "minecraft:red_mushroom": 3
+    layers: 1
+id: "AUTUMNAL"
+spawnable:
+  - "minecraft:note_block"
+replaceable:
+  - "minecraft:air"

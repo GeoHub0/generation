@@ -1,0 +1,9 @@
+scripts:
+  gsed: 1
+id: "GSE"
+spawn:
+  start:
+    min: 0
+    max: 128
+  width: 50
+  padding: 75

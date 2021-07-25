@@ -1,0 +1,5 @@
+abstract: true
+id: DEEPMINERAL
+replace:
+  - "minecraft:note_block"
+type: VANILLA

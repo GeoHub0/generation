@@ -1,0 +1,7 @@
+id: "FROSTED"
+scripts:
+  - "frosted_tree": 1
+spawnable:
+  - "minecraft:snow_block"
+replaceable:
+  - "minecraft:air"

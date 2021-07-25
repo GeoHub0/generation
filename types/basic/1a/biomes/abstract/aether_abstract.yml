@@ -1,0 +1,13 @@
+noise-equation: "((-((y / base)^2)) + 1) + |(noise2(x, z) / 3) + 0.1|"
+id: "AETHER_ABSTRACT"
+abstract: true
+extends: AETHER_ORES
+erode: RIVER
+structures:
+  - STRONGHOLD
+  - DUNGEON
+  - MINESHAFT
+  - RUINED_PORTAL
+noise-2d:
+  enable: true
+  base: 64

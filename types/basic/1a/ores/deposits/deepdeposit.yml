@@ -1,0 +1,8 @@
+abstract: true
+id: DEEPDEPOSIT
+replace:
+  - "minecraft:note_block"
+size:
+  min: 32
+  max: 32
+type: VANILLA

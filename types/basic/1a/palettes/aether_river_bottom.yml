@@ -1,0 +1,13 @@
+layers:
+  - materials:
+      - "minecraft:gravel": 1
+      - "minecraft:note_block[instrument=snare,note=0,powered=false]": 4
+      - "minecraft:sand": 2
+    layers: 2
+  - materials: "minecraft:note_block[instrument=basedrum,note=18,powered=false]"
+    layers: 1
+id: "AETHER_RIVER_BOTTOM"
+noise:
+  type: OpenSimplex2
+  frequency: 0.05
+  salt: 3

@@ -1,0 +1,17 @@
+# This biome is the parent of ALL biomes in the default config.
+
+id: "DEADZONE_ORES"
+abstract: true
+
+
+carving:
+  DESOLATECAVE: 50
+  RAVINE: 5
+
+structures:
+  - STRONGHOLD
+  - DUNGEON
+  - MINESHAFT
+
+
+

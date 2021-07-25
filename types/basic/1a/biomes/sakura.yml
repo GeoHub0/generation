@@ -1,0 +1,43 @@
+extends: "SAKURA_ABSTRACT"
+id: "SAKURA"
+color: 0x8db360
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - SAKURA_GRASSY: 255
+biome-noise:
+  type: OpenSimplex2
+  frequency: 0.01
+vanilla: WARM_OCEAN
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+structures:
+  - VILLAGE_PLAINS
+  - STRONGHOLD
+  - OUTPOST
+  - DUNGEON
+  - MINESHAFT
+
+flora:
+  - density: 50
+    y:
+      min: 62
+      max: 84
+    items:
+      - SAKURE: 20
+
+trees:
+  - density: 16
+    items:
+      - SAK: 1
+    y:
+      min: 55
+      max: 75
+
+
+# Carving and ores covered by super biome

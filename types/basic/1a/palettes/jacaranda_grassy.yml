@@ -1,0 +1,8 @@
+layers:
+  - materials: "minecraft:grass_block"
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 2
+  - materials: "minecraft:note_block[instrument=snare,note=8,powered=false]"
+    layers: 1
+id: "JACARANDA_GRASSY"

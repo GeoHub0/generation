@@ -1,0 +1,6 @@
+material: "minecraft:note_block[instrument=guitar,note=13,powered=false]"
+size:
+  min: 8
+  max: 8
+extends: MINERAL
+id: "LUMIJADE_ORE"

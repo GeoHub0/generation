@@ -1,0 +1,6 @@
+material: "minecraft:note_block[instrument=basedrum,note=8]"
+size:
+  min: 15
+  max: 15
+extends: MINERAL
+id: "SAPPHIRE_ORE"

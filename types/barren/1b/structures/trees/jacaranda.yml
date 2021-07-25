@@ -1,0 +1,7 @@
+id: "JACARANDAE"
+scripts:
+  - "jacaranda_tree": 1
+spawnable:
+  - "minecraft:grass_block"
+replaceable:
+  - "minecraft:air"

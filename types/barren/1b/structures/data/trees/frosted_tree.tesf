@@ -1,0 +1,63 @@
+id "frosted_tree";
+
+str blockID = getBlock(0,-1,0);
+if(blockID != "minecraft:note_block") {
+    print(blockID);
+    fail; // Cancel gen if not in land.
+}
+
+if(getBlock(-8,0,8) != "minecraft:air") fail;
+if(getBlock(-8,1,8) != "minecraft:air") fail;
+if(getBlock(-8,2,8) != "minecraft:air") fail;
+if(getBlock(-8,3,8) != "minecraft:air") fail;
+if(getBlock(-8,4,8) != "minecraft:air") fail;
+if(getBlock(-8,5,8) != "minecraft:air") fail;
+if(getBlock(-8,6,8) != "minecraft:air") fail;
+if(getBlock(-8,7,8) != "minecraft:air") fail;
+if(getBlock(-8,8,8) != "minecraft:air") fail;
+if(getBlock(-8,9,8) != "minecraft:air") fail;
+if(getBlock(-8,10,8) != "minecraft:air") fail;
+if(getBlock(-8,11,8) != "minecraft:air") fail;
+if(getBlock(-8,12,8) != "minecraft:air") fail;
+if(getBlock(-8,-1,8) != "minecraft:snow_block") fail;
+
+
+
+num y = 0;
+block(0, y + 5, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(0, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(1, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(2, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(3, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(3, y + 7, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(4, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(4, y + 7, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 0, 5, "minecraft:note_block[instrument=harp,note=6,powered=false]");
+block(5, y + 1, 5, "minecraft:note_block[instrument=harp,note=6,powered=false]");
+block(5, y + 2, 5, "minecraft:note_block[instrument=harp,note=6,powered=false]");
+block(5, y + 3, 5, "minecraft:note_block[instrument=harp,note=6,powered=false]");
+block(5, y + 4, 5, "minecraft:note_block[instrument=harp,note=6,powered=false]");
+block(5, y + 5, 0, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 5, 5, "minecraft:note_block[instrument=harp,note=6,powered=false]");
+block(5, y + 6, 0, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 1, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 2, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 3, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 4, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 6, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 7, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 8, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 6, 9, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 7, 4, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 7, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 7, 6, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(5, y + 7, 7, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(6, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(6, y + 7, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(7, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(7, y + 7, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(8, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(9, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(10, y + 5, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");
+block(10, y + 6, 5, "minecraft:note_block[instrument=guitar,note=2,powered=false]");

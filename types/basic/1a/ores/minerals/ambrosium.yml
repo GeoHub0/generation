@@ -1,0 +1,6 @@
+material: "minecraft:note_block[instrument=snare,note=1,powered=false]"
+size:
+  min: 1
+  max: 10
+extends: DEEPMINERAL
+id: "AMBROSIUM_ORE"

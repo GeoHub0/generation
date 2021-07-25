@@ -1,0 +1,7 @@
+id: "AETHERE"
+scripts:
+  - "aether_tree": 1
+spawnable:
+  - "minecraft:note_block"
+replaceable:
+  - "minecraft:air"
